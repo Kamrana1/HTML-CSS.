@@ -1,0 +1,24 @@
+/*img{
+    height: 240px
+}*/
+
+img[alt=phone]{
+    height: 250px;
+    border: 6px solid green
+}
+
+h3{color: red;
+background-color: aqua}
+
+.blue{
+    color: blue;
+   background-image: url(iphone.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center
+    
+}
+
+.link{
+    text-decoration: none
+}

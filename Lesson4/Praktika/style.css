@@ -1,0 +1,59 @@
+.menu li:nth-child(2n+1){
+    background-color: blanchedalmond;
+}
+
+.menu li:first-child:hover{
+    background-color: yellow
+}
+.menu li:hover{
+    border-color: blue;
+    background-color: aqua;
+}
+
+
+.menu li a:hover{
+color: greenyellow;
+    
+    
+}
+
+.menu li a{
+    color: brown;
+    
+}
+.menu li{
+    
+    width: 145px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #000;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.menu li:nth-child(3):after{
+    content: " new";
+    color: blueviolet
+}
+
+.menu li:hover:after{
+    content: ">>"
+}
+
+.text:first-letter{
+    font-size: 30px;
+    color: red
+}
+
+.table{
+    border-spacing: inherit; /*table-nin xanalarını birləşdirir ikili xətt olmur
+    border: 1px solid #000;
+    width: 400px;
+    height: 200px;
+}
+
+td{
+    border: 1px solid #000;
+}

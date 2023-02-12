@@ -1,0 +1,51 @@
+.menu li a:hover{
+    color: yellow;
+}
+
+div{
+    border-color: red;
+}
+
+
+.colortext{
+    color: red;
+    background-color: bisque;    
+}
+
+input{
+    text-transform: capitalize;
+}
+
+#userform{
+    width: 500px;
+    height: 100px;
+   
+}
+
+
+table{
+    border: 1px solid #000;
+    border-spacing: inherit;
+    width: 300px;
+    height: 180px
+}
+td{
+    border: 1px solid #000
+}
+img{
+    height: 230px;
+    border: 5px solid #ccc
+}
+img:hover{
+    border-color: white
+}
+
+p:first-letter{
+    color: red;
+    font-style: italic;
+    font-size: 30px
+}
+
+.first-row{
+    height: 100px;
+}

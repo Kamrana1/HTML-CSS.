@@ -1,0 +1,22 @@
+.menu>li:hover {
+    outline: 1px solid black;
+    width: 100px;
+    height: 20px;
+    background-color: yellow;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.menu a {
+    display: block;
+}
+
+.menu li ul{
+    display: none;
+}
+
+.menu li:hover ul{
+    display: block;
+}

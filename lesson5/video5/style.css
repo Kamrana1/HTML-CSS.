@@ -1,0 +1,134 @@
+.container {
+    position: relative;
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.header {
+    height: 120px;
+    /*background-color: aquamarine;*/
+    background-image: url(fon-for-site.jpg);
+   
+}
+
+.content {
+    padding: 1px;
+    height: 400px;
+    background-color: aquamarine
+}
+
+.footer {
+    height: 50px;
+    width: inherit;
+    background-color: antiquewhite;
+}
+
+.logo {
+    height: 92px;
+    width: 200px;
+    /*background-color: darkred;*/
+    background-image: url("Logo-Lego.PNG");
+    margin-top: 15px;
+    margin-left: 20px;
+    float: left;
+}
+
+.menu {
+    float: right;
+    margin-right: 10px;
+}
+
+.menu>li {
+    padding-left: 10px;
+    background-image: url(knopka.png);
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border: 1px solid black;
+    height: 20px;
+    width: 80px;
+    float: left;
+    background-color: coral;
+}
+
+.menu>li a {
+    display: block;
+}
+
+.menu li ul {
+    list-style: none;
+    display: none;
+}
+
+.menu li:hover ul {
+    display: block;
+}
+
+.txt {
+    float: right;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.product{
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    margin-right: 5px;
+    float: left;
+}
+
+.product1{
+    background-image: url("Mob2.png");
+    background-size: 70px;
+}
+.product2{
+    background-image: url("iphone.jfif");
+    background-size: 70px 60px;
+    background-position: center;
+}
+
+.products{
+    position: absolute;
+}
+.products li{
+    float: left;
+    padding: 10px;
+    list-style: none;
+}
+
+.content img{
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 70px;
+    width: 70px;
+}
+
+.content img.image{
+    float: left;
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.img_katalog:hover{
+    background-color: yellow;
+}
+
+.description{
+ display: inline-block;
+    width: 597px;
+}
+.buttons{
+height: 25px;
+width: 100px;
+}
+.buttons:hover{
+    display: block;
+    background-color: yellow;
+}

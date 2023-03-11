@@ -1,0 +1,16 @@
+.product{
+    margin-bottom: 40px;
+    width: 200px;
+    height: 150px;
+    border: 1px solid;
+    /*float: left;*/
+}
+
+.footer{
+    border: 1px solid black;
+    margin-top: 40px;
+    height:100px;
+    background-color: grey;
+    float: left;
+   /* clear: both;*/
+}

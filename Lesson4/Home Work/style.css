@@ -37,7 +37,7 @@ img{
     border: 5px solid #ccc
 }
 img:hover{
-    border-color: white
+    border-color: white;
 }
 
 p:first-letter{
